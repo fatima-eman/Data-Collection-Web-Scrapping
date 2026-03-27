@@ -19,3 +19,8 @@ I built this scraper using **BeautifulSoup** and **Requests** to target [Real Py
 ## 📦 Installation & Setup
 To run this project locally, follow these steps:
 
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/](https://github.com/)[fatima-eman]/[Data-Collection-Web-Scrapping].git
+   cd [Data-Collection-Web-Scrapping]
+
