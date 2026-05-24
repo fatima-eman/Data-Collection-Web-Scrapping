@@ -17,8 +17,11 @@ job_titles_list=[]
 for job in job_elements:
     job_title= job.find("h2",class_='title is-5').text.strip() if job.find("h2",class_='title is-5') else "N/A"
     company_name=job.find("h3",class_='subtitle is-6 company').text.strip() if job.find("h3",class_='subtitle is-6 company') else "N/A"
+    job_location=job.find("p",class_='location').text.strip() if job.find("p",class_='location') else "N/A"
     job_titles_list.append({"Job Title":job_title,
-                            "Company Name":company_name})
+                            "Company Name":company_name
+                            ,"Location":job_location
+                            })
 
 #Convert list into DataFrame and save as CSV
 df= pd.DataFrame(job_titles_list)
