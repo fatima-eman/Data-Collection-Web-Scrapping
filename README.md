@@ -22,4 +22,9 @@ To run this project locally, follow these steps:
 1. **Clone the repository:**
    ```bash
    git clone [https://github.com/](https://github.com/)[fatima-eman]/[Data-Collection-Web-Scrapping].git
+<<<<<<< HEAD
    cd [Data-Collection-Web-Scrapping]
+=======
+   cd [Data-Collection-Web-Scrapping]
+
+>>>>>>> 1f4e0dd3ed2973eb2a021155e9a84ca189458b22
